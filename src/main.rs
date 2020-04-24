@@ -17,7 +17,7 @@ use {
 async fn serve_req(_req: Request<Body>) -> Result<Response<Body>, hyper::Error> {
     // Always return successfully with a response containing a body with
     // a friendly greeting ;)
-    Ok(Response::new(Body::from("hello, world! this is the first async program")))
+    Ok(Response::new(Body::from("hello, world! this is the first async program in hyper")))
 }
   
 
